@@ -1,0 +1,29 @@
+.tools/
+.dotnet_cli/
+.packages/
+.tmp/
+.appdata/
+.localappdata/
+.github-cli/
+bin/
+obj/
+Tests/bin/
+Tests/obj/
+dist/
+results/
+updates/
+.env
+*.writing
+site-*.html
+!site-result-idid.html
+!site-item-sample.html
+site-*.js
+site-cookies.txt
+TestArtifacts/
+DesignReferences/
+
+# Agent session artifacts
+.omo/
+
+# Local secret, never commit
+Assets/random_numbers

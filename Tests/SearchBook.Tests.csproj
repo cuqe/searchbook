@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="..\Models\BookResult.cs" Link="Models\BookResult.cs" />
+    <Compile Include="..\Models\LookupSettings.cs" Link="Models\LookupSettings.cs" />
+    <Compile Include="..\Services\RegistrationNumberReader.cs" Link="Services\RegistrationNumberReader.cs" />
+    <Compile Include="..\Services\ResultWorkbookReader.cs" Link="Services\ResultWorkbookReader.cs" />
+    <Compile Include="..\Services\XlsxSafety.cs" Link="Services\XlsxSafety.cs" />
+    <Compile Include="..\Services\XlsxExporter.cs" Link="Services\XlsxExporter.cs" />
+    <Compile Include="..\Services\LibraryClient.cs" Link="Services\LibraryClient.cs" />
+    <Compile Include="..\Services\LocalBookStatusCatalog.cs" Link="Services\LocalBookStatusCatalog.cs" />
+    <Compile Include="..\Services\ReferenceComparisonClassifier.cs" Link="Services\ReferenceComparisonClassifier.cs" />
+    <Compile Include="..\Services\LookupResultClassifier.cs" Link="Services\LookupResultClassifier.cs" />
+    <Compile Include="..\Services\LookupRunState.cs" Link="Services\LookupRunState.cs" />
+    <Compile Include="..\Services\ProcessingSpeedTracker.cs" Link="Services\ProcessingSpeedTracker.cs" />
+    <Compile Include="..\Services\AppDataPaths.cs" Link="Services\AppDataPaths.cs" />
+    <Compile Include="..\Services\DiagnosticReportWriter.cs" Link="Services\DiagnosticReportWriter.cs" />
+    <Compile Include="..\Services\EnvironmentFile.cs" Link="Services\EnvironmentFile.cs" />
+    <Compile Include="..\Services\GitHubUpdateService.cs" Link="Services\GitHubUpdateService.cs" />
+  </ItemGroup>
+</Project>
